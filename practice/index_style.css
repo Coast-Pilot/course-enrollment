@@ -1,0 +1,192 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    background-image: url('intro_image.jpg');
+}
+
+/* Navbar */
+header {
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background 0.3s ease;
+}
+
+header ul li a:hover {
+    background: #555;
+    border-radius: 4px;
+}
+
+/* Introduction Section */
+.intro {
+    background-image: url('intro_image.jpg');
+    background-size:cover;
+    background-position: center;
+    padding: 150px 20px;
+    text-align: center;
+    color: white;
+}
+
+.intro h2 {
+    font-size: 50px;
+}
+
+.intro p {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.intro .cta {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.intro .cta:hover {
+    background: #218838;
+}
+
+/* About Us Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 100;
+}
+
+.about p {
+    font-size: 100;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Courses Section */
+.courses {
+    padding: 50px 20px;
+    text-align: center;
+    background: #e9ecef;
+}
+
+.courses .course-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.courses .course-item {
+    flex-basis: 30%;
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.courses .course-item img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Enrollment Section */
+
+.enroll {
+    max-width: 500px;
+    margin: auto;
+    background-color: rgb(231, 224, 224);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 100px;
+    text-align: center;
+}
+
+.enroll form {
+    max-width: 300px;
+    margin: auto;
+}
+
+.enroll label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 25px;
+}
+
+.enroll input, .enroll select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.enroll button {
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.enroll button:hover {
+    background: #218838;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ensure no global filters are affecting images */
+img {
+    filter: none;
+    -webkit-filter: none; /* for Safari */
+}
